@@ -11,6 +11,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Pangram", "pangram\Pangram.
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "RobotName", "robot-name\RobotName.fsproj", "{C2A10C16-4178-4D65-902B-9CEB046FF37B}"
 EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Isogram", "isogram\Isogram.fsproj", "{2E10D9F9-3391-4A09-B725-A2558F292054}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C2A10C16-4178-4D65-902B-9CEB046FF37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A10C16-4178-4D65-902B-9CEB046FF37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A10C16-4178-4D65-902B-9CEB046FF37B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E10D9F9-3391-4A09-B725-A2558F292054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E10D9F9-3391-4A09-B725-A2558F292054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E10D9F9-3391-4A09-B725-A2558F292054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E10D9F9-3391-4A09-B725-A2558F292054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
