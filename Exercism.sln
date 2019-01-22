@@ -15,6 +15,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Isogram", "isogram\Isogram.
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "PhoneNumber", "phone-number\PhoneNumber.fsproj", "{B3CE56FA-65FE-4D5E-9133-0ACC6B34A34C}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WorkSheets", "WorkSheets\WorkSheets.fsproj", "{ADAA6197-5A45-4AA7-BB77-F4ACB6CEEC09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B3CE56FA-65FE-4D5E-9133-0ACC6B34A34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3CE56FA-65FE-4D5E-9133-0ACC6B34A34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3CE56FA-65FE-4D5E-9133-0ACC6B34A34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAA6197-5A45-4AA7-BB77-F4ACB6CEEC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAA6197-5A45-4AA7-BB77-F4ACB6CEEC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAA6197-5A45-4AA7-BB77-F4ACB6CEEC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAA6197-5A45-4AA7-BB77-F4ACB6CEEC09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
