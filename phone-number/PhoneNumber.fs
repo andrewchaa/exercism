@@ -7,9 +7,8 @@ let clean input: Result<uint64, string> =
     let rec removeNoise (inputs: char list): char list =
         match inputs with
         | [] -> []
-        | x::xs ->  match x with
-                    | ' ' | '-' | '(' | ')' | '.' -> removeNoise xs
-                    | _ -> x :: removeNoise xs
+        | x::xs when x=' ' || x='-' || x='(' || x=')' || x='.' || x='+' -> removeNoise xs
+        | x::xs -> x :: removeNoise xs
     
     let validateAgainstNonNumerics (inputs: char list): Result<char list, string> =
         if inputs |> List.exists Char.IsLetter then Error "alphanumerics not permitted"
