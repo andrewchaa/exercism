@@ -12,15 +12,22 @@ let recite (start: int) (stop: int) =
         ("eighth", "eight Maids-a-Milking");
         ("ninth", "nine Ladies Dancing");
         ("tenth", "ten Lords-a-Leaping");
+        ("eleventh", "eleven Pipers Piping");
+        ("twelfth", "twelve Drummers Drumming");
     ]
 
     let getDay n = fst words.[n-1]
-    let rec getSentence n = 
+    let rec getPhrase n = 
         match n with
         | 1 -> snd words.[n-1]
-        | 2 -> snd words.[n-1] + ", and " + getSentence (n-1)
-        | _ -> snd words.[n-1] + ", " + getSentence (n-1)
+        | 2 -> snd words.[n-1] + ", and " + getPhrase (n-1)
+        | _ -> snd words.[n-1] + ", " + getPhrase (n-1)
+    
+    let rec getSentence st sp =
+        let sentence = sprintf "On the %s day of Christmas my true love gave to me: %s." (getDay st) (getPhrase st)
+        if (st = sp) then
+            [ sentence ]
+        else
+            sentence :: getSentence (st + 1) sp
 
-
-    sprintf "On the %s day of Christmas my true love gave to me: %s." (getDay start) (getSentence start)
-    |> fun x -> [x]
+    getSentence start stop
