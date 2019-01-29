@@ -19,6 +19,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WorkSheets", "WorkSheets\Wo
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TwelveDays", "twelve-days\TwelveDays.fsproj", "{5CE5075A-AD26-404C-88CC-6B3A06CA2706}"
 EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Leap", "leap\Leap.fsproj", "{11704B28-0393-44BB-BDB5-191C6EFBF861}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{5CE5075A-AD26-404C-88CC-6B3A06CA2706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CE5075A-AD26-404C-88CC-6B3A06CA2706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CE5075A-AD26-404C-88CC-6B3A06CA2706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11704B28-0393-44BB-BDB5-191C6EFBF861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11704B28-0393-44BB-BDB5-191C6EFBF861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11704B28-0393-44BB-BDB5-191C6EFBF861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11704B28-0393-44BB-BDB5-191C6EFBF861}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
