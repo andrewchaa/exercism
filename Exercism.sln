@@ -15,13 +15,15 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Isogram", "isogram\Isogram.
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "PhoneNumber", "phone-number\PhoneNumber.fsproj", "{B3CE56FA-65FE-4D5E-9133-0ACC6B34A34C}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WorkSheets", "WorkSheets\WorkSheets.fsproj", "{ADAA6197-5A45-4AA7-BB77-F4ACB6CEEC09}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "WorkSheets", "WorkSheets\WorkSheets.fsproj", "{ADAA6197-5A45-4AA7-BB77-F4ACB6CEEC09}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TwelveDays", "twelve-days\TwelveDays.fsproj", "{5CE5075A-AD26-404C-88CC-6B3A06CA2706}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Leap", "leap\Leap.fsproj", "{11704B28-0393-44BB-BDB5-191C6EFBF861}"
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Grains", "grains\Grains.fsproj", "{E040824E-68B0-46FA-8E98-DC6D397D9639}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Bob", "bob\Bob.fsproj", "{A68ABB7B-EE65-40B5-B18D-ADDB9446BA2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{E040824E-68B0-46FA-8E98-DC6D397D9639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E040824E-68B0-46FA-8E98-DC6D397D9639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E040824E-68B0-46FA-8E98-DC6D397D9639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68ABB7B-EE65-40B5-B18D-ADDB9446BA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68ABB7B-EE65-40B5-B18D-ADDB9446BA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68ABB7B-EE65-40B5-B18D-ADDB9446BA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68ABB7B-EE65-40B5-B18D-ADDB9446BA2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
